@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginLeft="172dp"
+        android:layout_marginTop="117dp"
+        android:text="Sign Up"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+         />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="70dp"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        >
+
+        <EditText
+            android:id="@+id/txtNameReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="20dp"
+            android:layout_margin="20dp"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"/>
+
+
+        <EditText
+            android:id="@+id/txtEmailReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="20dp"
+            android:layout_margin="20dp"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"/>
+
+
+        <EditText
+            android:id="@+id/txtPassReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="20dp"
+            android:layout_margin="20dp"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:id="@+id/SignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:text="Sign Up"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txtRegisterNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:text="Not registered? Register Now!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+         />
+
+</LinearLayout>
