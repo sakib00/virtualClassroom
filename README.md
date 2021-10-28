@@ -22,6 +22,10 @@ node index.js
 
 Then, cd into the client-web folder and run **npm install** to install the dependencies.
 
+```bash
+npm install
+```
+
 To run the client run the command **npm start**
 
 ```bash
