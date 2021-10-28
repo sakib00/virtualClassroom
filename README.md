@@ -8,7 +8,7 @@ _status: Incomplete_
 
 ## Installation
 
-After you have cloned the repo, cd into the server folder and run **npm install** to install the dependencies.
+After you have cloned the repo, **cd** into the **server folder** and run **npm install** to install the dependencies.
 
 ```bash
 npm install
@@ -20,7 +20,7 @@ To run the server run the command **node index.js**
 node index.js
 ```
 
-Then, cd into the client-web folder and run **npm install** to install the dependencies.
+Then, **cd** into the **client-web** folder and run **npm install** to install the dependencies.
 
 ```bash
 npm install
